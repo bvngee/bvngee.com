@@ -17,13 +17,24 @@ const timeOfLastCommit = TIME_OF_LAST_COMMIT;
         <div class="box" id="who">
             <h2>Who?</h2>
             <p>
-                A software developer, Linux & neovim user, NixOS addict, and
-                Computer Science student at UC Santa Cruz. I'm interested in all
-                things technology but especially systems programming and low
-                level software. I love learning about how things work! When I'm
-                not on my computer I also occasionally mountain bike, play
-                tennis, and enjoy the sun :P
-                <br><br>
+                A second year CS/EE student at UC Santa Cruz. I'm interested in all
+                things technology but especially low-level programming,
+                electronics, and embedded systems. I am currently the Firmware
+                Lead for <a target="_blank" rel="noopener noreferrer"
+                href="https://formulaslug.com/">Formula Slug</a>. I am also a
+                passionate Linux / neovim user and NixOS addict :) When I'm not
+                at my computer or in the lab I also occasionally mountain bike,
+                play tennis, and enjoy the sun and Santa Cruz mountains.
+            </p>
+            
+            <!-- <p> -->
+            <!--     Computer Science student at UC Santa Cruz. I'm interested in all -->
+            <!--     things technology but especially systems programming and low -->
+            <!--     level software. I love learning about how things work! When I'm -->
+            <!--     not on my computer I also occasionally mountain bike, play -->
+            <!--     tennis, and enjoy the sun :P -->
+            <!-- </p> -->
+            <p>
                 I go by bvngee
                 <a
                     href="#where"
@@ -34,11 +45,12 @@ const timeOfLastCommit = TIME_OF_LAST_COMMIT;
         </div>
         <div class="box" id="what">
             <h2>What?</h2>
-            <p>Nowadays most of my time is spent in 
-                <a href="https://formulaslug.com/">Formula Slug</a>'s lab space working
-                on a variety of projects from live telemetry radio
-                communication, to data visualization, embedded programming, and PCB
-                debugging. Eventually I will write more about it on this site :)
+            <p>
+                Nowadays most of my time is spent in Formula Slug's lab space
+                working on a variety of projects from embedded programming to
+                PCB design/debugging, sensor integration, telemetry and data
+                analysis and more. Eventually I will write more about it on this
+                site.
             </p>
             <p>Here are a bunch of other projects I care about, past and present:</p>
             <ul>
@@ -48,18 +60,18 @@ const timeOfLastCommit = TIME_OF_LAST_COMMIT;
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bvngee/SAR">SAR project</a>: 
-                    I helped construct/organize my highschool's brand new electronics class,
-                    consisting of <i>tons</i> of fun research, building, embedded programming,
-                    and debugging. This is the result of that!
+                    I helped construct/organize my highschool's brand new
+                    electronics class, leading to tons of fun research, embedded
+                    programming, and debugging. This is the result of that!
                 </li>
                 <li>
-                    This website! (<a target="_blank" rel="noopener noreferrer" href="https://github.com/Bvngee/bvngee.com">src</a>):
-                    Written and hosted completely from scratch (using only Astro, nginx, and some bash). No preexisting integrations/deployments, manual SSL, etc
-                    (see <a href="/blogs/website-explanation">this blog post</a>). Learning a little about how the web works, the fun way :)
+                    This website! (<a target="_blank" rel="noopener noreferrer" href="https://github.com/Bvngee/bvngee.com">source</a>):
+                    Written and hosted from scratch using only Astro, nginx, and some bash. Custom automated deployment, manual SSL, etc
+                    (see <a href="/blogs/website-explanation">this blog post</a>).
                 </li> 
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bvngee/BvngeeAddons">BvngeeAddons</a>: 
-                    my personal set of client-side fixes & features for Minecraft,
+                    my personal set of client-side fixes & features for Minecraft 1.17,
                     including screenshot management utils, improved boss bar
                     rendering, bug fixes, and more! Made purely for myself
                     to resolve my own annoyances with the game.
@@ -67,11 +79,11 @@ const timeOfLastCommit = TIME_OF_LAST_COMMIT;
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.curseforge.com/minecraft/mc-mods/coordinate-mod">CoordinateMod</a> 
                     and <a target="_blank" rel="noopener noreferrer" href="https://www.curseforge.com/minecraft/mc-mods/anti-auto-jump">AntiAutoJump</a>: 
-                    my first two Minecraft mods, at somewhere around 16k total downloads (released in 2020@age 13)
+                    my first two Minecraft mods, somewhere around 16k total downloads (circa 2020)
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/94EYHt8qgw">Oracle SMP</a>: 
-                    my technical Minecraft server (redstone, farms, automation, etc - all the nerdy stuff). Running since April 2020
+                    my technical Minecraft server - farms, automation, redstone, etc - all the nerdy stuff. (2020-2024)
                 </li>
                 <li>
                     A bunch of other stuff (see <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bvngee?tab=repositories&type=source">GitHub</a>): 
@@ -83,33 +95,39 @@ const timeOfLastCommit = TIME_OF_LAST_COMMIT;
             <h2>How?</h2>
             <div class="how-flexbox">
                 <div class="language-icons-section">
-                    <p>Things I've used a lot:</p>
+                    <p>My primary background is in software development.  Languages I've used a lot:</p>
                     <div class="icon-card-wrapper">
-                        <!-- Badges from simpleicons.org (no longer used - fully custom now), icons from shields.io. also devicon.dev as a backup -->
+                        <!-- Icons from simpleicons.org, also devicon.dev as a backup -->
                         <!-- Determine colors using ../../get_language_color.sh (which uses github-linguists) --> 
                         <!-- TODO: replace all these with NF icons via icon update branch? -->
                         <SoftwareIconShield name="Java" color="#b07219" slug="" />
-                        <SoftwareIconShield name="Nix" color="#7e7eff" slug="nixos" />
-                        <SoftwareIconShield name="Lua" color="#000080" slug="lua" />
                         <SoftwareIconShield name="Rust" color="#dea584" slug="rust" />
+                        <SoftwareIconShield name="Lua" color="#000080" slug="lua" />
+                        <SoftwareIconShield name="C" color="#555555" slug="c" />
                         <SoftwareIconShield name="C++" color="#f34b7d" slug="cplusplus" />
                         <SoftwareIconShield name="Python" color="#3572A5" slug="python" />
                         <SoftwareIconShield name="Bash" color="#89e051" slug="gnubash" />
-                        <SoftwareIconShield name="Astro" color="#ff5a03" slug="astro" />
-                        <SoftwareIconShield name="CSS" color="#563d7c" slug="css" />
-                        <SoftwareIconShield name="JavaScript" color="#f1e05a" slug="javascript" />
                         <SoftwareIconShield name="TypeScript" color="#3178c6" slug="typescript" />
+                        <SoftwareIconShield name="Astro" color="#ff5a03" slug="astro" />
                         <SoftwareIconShield name="React" color="#61dafb" slug="react" />
+                        <SoftwareIconShield name="Nix" color="#7e7eff" slug="nixos" />
                     </div>
-                    <p>What I'm actually interested in:</p>
+                    <p>What I actually enjoy writing:</p>
                     <div class="icon-card-wrapper">
+                        <SoftwareIconShield name="Rust" color="#dea584" slug="rust" />
+                        <SoftwareIconShield name="Zig" color="#ec915c" slug="zig" />
                         <SoftwareIconShield name="C" color="#555555" slug="c" />
                         <SoftwareIconShield name="C++" color="#f34b7d" slug="cplusplus" />
-                        <SoftwareIconShield name="Zig" color="#ec915c" slug="zig" />
-                        <SoftwareIconShield name="Rust" color="#dea584" slug="rust" />
                         <!-- <SoftwareIconShield name="Nix" color="#7e7eff" slug="nixos" /> -->
                     </div>
                 </div>
+                <p>
+                    For electronics I'm a fan of KiCad and enjoy working with STM32s. I've used
+                    FreeRTOS and Arm MbedOS, as well as AVR's baremetal SDK
+                    on an ATtiny. I'm a proponent of compatible and open
+                    build systems; the last thing you'll see me using is
+                    some proprietary IDE :)
+                </p>
 
                 <!-- Until GitHub implements something like -->
                 <!-- https://github.com/orgs/community/discussions/18230#discussioncomment-14514129, -->
@@ -141,14 +159,14 @@ const timeOfLastCommit = TIME_OF_LAST_COMMIT;
                     favicon="https://www.github.com/favicon.ico"
                 />
                 <SocialLinkPreview
-                    title="Email"
-                    href="mailto:nystromjp@gmail.com"
-                    favicon="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"
-                />
-                <SocialLinkPreview
                     title="LinkedIn"
                     href="https://www.linkedin.com/in/jack-nystrom-3a7128311/"
                     favicon="https://static.licdn.com/aero-v1/sc/h/akt4ae504epesldzj74dzred8"
+                />
+                <SocialLinkPreview
+                    title="Email"
+                    href="mailto:nystromjp@gmail.com"
+                    favicon="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"
                 />
                 <SocialLinkPreview
                     title="Reddit"
@@ -278,7 +296,6 @@ const timeOfLastCommit = TIME_OF_LAST_COMMIT;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-bottom: 1em;
     }
     .language-icons-section {
         flex: 1 1 20em;
